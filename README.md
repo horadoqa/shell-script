@@ -1,4 +1,4 @@
-# Shell script é
+# Shell script
 
 É um tipo de arquivo de texto que contém uma sequência de comandos a serem executados pelo *shell* (interprete de comandos) de um sistema operacional, como o *Bash* no Linux ou macOS. Esses comandos podem ser usados para automatizar tarefas repetitivas ou complexas, como a execução de programas, manipulação de arquivos, administração de sistemas e controle de processos.
 
@@ -29,6 +29,7 @@ echo "Olá, mundo!" > arquivo.txt
 ```
 
 ### Como executar um shell script:
+
 1. Salve o arquivo com a extensão `.sh`, por exemplo, `script.sh`.
 2. Torne o script executável com o comando:
    ```bash
