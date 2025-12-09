@@ -1,0 +1,10 @@
+https://google.com
+https://example.com
+https://www.globo.com/healthcheck
+https://www.linkedin.com/
+https://www.btgpactual.com/
+https://www.globo.com/healthchecks/
+https://www.horadoqa.com.br/healthcheck
+https://dominioquenaoexiste123.com
+http://10.255.255.1
+http://localhost

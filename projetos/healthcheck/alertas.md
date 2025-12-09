@@ -1,7 +1,3 @@
-Perfeito! Vamos criar um **README completo** explicando como adicionar **alertas automáticos por e-mail e Telegram** a um script de monitoramento com `curl`. Vou incluir exemplos práticos, configuração e boas práticas.
-
----
-
 # Monitoramento de Endpoint com Alertas por E-mail ou Telegram
 
 Este guia mostra como criar um **monitoramento contínuo de um serviço** usando Shell Script, com **alertas automáticos** sempre que o serviço estiver fora do ar.

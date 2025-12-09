@@ -1,0 +1,10 @@
+2025-12-09 09:43:25 - https://google.com - Status: 301
+2025-12-09 09:43:25 - https://example.com - Status: 200
+2025-12-09 09:43:26 - https://www.globo.com/healthcheck - Status: 200
+2025-12-09 09:43:26 - https://www.linkedin.com/ - Status: 200
+2025-12-09 09:43:26 - https://www.btgpactual.com/ - Status: 200
+2025-12-09 09:43:26 - https://www.globo.com/healthchecks/ - Status: 404
+2025-12-09 09:43:27 - https://www.horadoqa.com.br/healthcheck - Status: 200
+2025-12-09 09:43:27 - https://dominioquenaoexiste123.com - Falha (timeout, DNS inválido ou URL inacessível)
+2025-12-09 09:43:27 - http://10.255.255.1 - Falha (timeout, DNS inválido ou URL inacessível)
+2025-12-09 09:43:30 - http://localhost - Status: 200
