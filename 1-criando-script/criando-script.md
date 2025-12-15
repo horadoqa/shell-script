@@ -14,7 +14,7 @@ Você pode usar qualquer editor, como:
 
 ## 2. Escreva seu primeiro código
 
-Crie um novo arquivo e adicione o seguinte conteúdo:
+Crie um novo arquivo, no vscode, no windows use (crtl + n) e adicione o seguinte conteúdo:
 
 ```bash
 #!/bin/bash
