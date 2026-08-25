@@ -1,7 +1,3 @@
-Segue uma versão mais organizada, profissional e pronta para repositório (GitHub/GitLab):
-
----
-
 # 📊 Monitor de Recursos Linux
 
 Script em **Shell Script (Bash)** para monitoramento de recursos do servidor em tempo real via terminal.
