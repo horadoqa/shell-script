@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atalhos do Terminal Linux</title>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --card-hover: #1c2128;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --green: #3fb950;
+      --blue: #58a6ff;
+      --purple: #bc8cff;
+      --orange: #f0883e;
+      --red: #f85149;
+      --yellow: #d29922;
+      --code-bg: #0d1117;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      background:
+        radial-gradient(circle at top, #17202b 0, var(--bg) 45%);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      width: min(1200px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 64px 0 40px;
+      text-align: center;
+    }
+
+    .terminal-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--card);
+      color: var(--green);
+      font-size: 30px;
+      font-weight: 800;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, .25);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 14px auto 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .terminal {
+      margin: 0 auto 48px;
+      max-width: 850px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #010409;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+    }
+
+    .terminal-header {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 12px 16px;
+      background: #161b22;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .dot.red { background: #ff5f56; }
+    .dot.yellow { background: #ffbd2e; }
+    .dot.green { background: #27c93f; }
+
+    .terminal-title {
+      margin-left: 8px;
+      color: var(--muted);
+      font-size: .85rem;
+    }
+
+    .terminal-body {
+      padding: 20px;
+      color: #79c0ff;
+      font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+      font-size: .9rem;
+    }
+
+    .prompt {
+      color: var(--green);
+    }
+
+    .section {
+      margin-bottom: 42px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 18px;
+      font-size: 1.45rem;
+    }
+
+    .section-title .icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
+      background: rgba(88, 166, 255, .1);
+      color: var(--blue);
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .shortcut {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 70px;
+      padding: 14px 18px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(22, 27, 34, .85);
+      transition:
+        transform .15s ease,
+        background .15s ease,
+        border-color .15s ease;
+    }
+
+    .shortcut:hover {
+      transform: translateY(-2px);
+      background: var(--card-hover);
+      border-color: #484f58;
+    }
+
+    .description {
+      color: var(--text);
+    }
+
+    .note {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: .78rem;
+    }
+
+    kbd {
+      flex-shrink: 0;
+      padding: 7px 10px;
+      border: 1px solid #484f58;
+      border-bottom-width: 3px;
+      border-radius: 7px;
+      background: #21262d;
+      color: #f0f6fc;
+      font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+      font-size: .8rem;
+      font-weight: 700;
+      white-space: nowrap;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+    }
+
+    .favorites {
+      margin-bottom: 48px;
+      padding: 24px;
+      border: 1px solid rgba(63, 185, 80, .25);
+      border-radius: 14px;
+      background:
+        linear-gradient(
+          135deg,
+          rgba(63, 185, 80, .08),
+          rgba(22, 27, 34, .7)
+        );
+    }
+
+    .favorites h2 {
+      margin-top: 0;
+      font-size: 1.35rem;
+    }
+
+    .cheatsheet {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 24px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .cheatsheet li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 0;
+    }
+
+    .cheatsheet kbd {
+      min-width: 72px;
+      text-align: center;
+      font-size: .72rem;
+    }
+
+    .memory {
+      margin-top: 24px;
+      padding: 18px;
+      border-left: 3px solid var(--purple);
+      border-radius: 6px;
+      background: rgba(188, 140, 255, .07);
+      color: var(--muted);
+    }
+
+    .memory strong {
+      color: var(--purple);
+    }
+
+    footer {
+      padding: 30px 0 50px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: .85rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 5px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--card);
+      color: var(--green);
+      font-family: monospace;
+      font-size: .75rem;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        padding-top: 40px;
+      }
+
+      .grid,
+      .cheatsheet {
+        grid-template-columns: 1fr;
+      }
+
+      .shortcut {
+        min-height: 64px;
+      }
+
+      .terminal-body {
+        overflow-x: auto;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+```
+<header>
+  <div class="terminal-icon">&gt;_</div>
+
+  <div class="badge">GNU Readline · Linux CLI</div>
+
+  <h1>Atalhos do Terminal Linux</h1>
+
+  <p class="subtitle">
+    Cheat sheet dos principais atalhos de teclado para navegar,
+    editar comandos, controlar processos e trabalhar com o histórico.
+  </p>
+</header>
+
+<div class="terminal">
+  <div class="terminal-header">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+    <span class="terminal-title">bash — terminal</span>
+  </div>
+
+  <div class="terminal-body">
+    <span class="prompt">user@linux</span>:~$ ls -la<br>
+    <span class="prompt">user@linux</span>:~$ git status<br>
+    <span class="prompt">user@linux</span>:~$ _
+  </div>
+</div>
+
+<!-- Navegação -->
+<section class="section">
+  <h2 class="section-title">
+    <span class="icon">↔</span>
+    Navegação na linha
+  </h2>
+
+  <div class="grid">
+    <div class="shortcut">
+      <div class="description">Início da linha</div>
+      <kbd>Ctrl + A</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Fim da linha</div>
+      <kbd>Ctrl + E</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Move 1 caractere para trás</div>
+      <kbd>Ctrl + B</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Move 1 caractere para frente</div>
+      <kbd>Ctrl + F</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Move 1 palavra para trás</div>
+      <kbd>Alt + B</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Move 1 palavra para frente</div>
+      <kbd>Alt + F</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Move 1 palavra para trás</div>
+      <div>
+        <kbd>Ctrl + ←</kbd>
+        <div class="note">depende do terminal</div>
+      </div>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Move 1 palavra para frente</div>
+      <div>
+        <kbd>Ctrl + →</kbd>
+        <div class="note">depende do terminal</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Edição -->
+<section class="section">
+  <h2 class="section-title">
+    <span class="icon">✂</span>
+    Apagar e editar
+  </h2>
+
+  <div class="grid">
+    <div class="shortcut">
+      <div class="description">Apaga o caractere anterior</div>
+      <kbd>Ctrl + H</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Apaga o caractere sob o cursor</div>
+      <kbd>Ctrl + D</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Apaga a palavra anterior</div>
+      <kbd>Ctrl + W</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Apaga a próxima palavra</div>
+      <kbd>Alt + D</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Apaga até o início da linha</div>
+      <kbd>Ctrl + U</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Apaga até o fim da linha</div>
+      <kbd>Ctrl + K</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Cola o último texto apagado</div>
+      <kbd>Ctrl + Y</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Alterna textos apagados anteriormente</div>
+      <kbd>Alt + Y</kbd>
+    </div>
+  </div>
+</section>
+
+<!-- Histórico -->
+<section class="section">
+  <h2 class="section-title">
+    <span class="icon">↶</span>
+    Histórico
+  </h2>
+
+  <div class="grid">
+    <div class="shortcut">
+      <div class="description">Comando anterior</div>
+      <kbd>Ctrl + P</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Próximo comando</div>
+      <kbd>Ctrl + N</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Pesquisa reversa no histórico</div>
+      <kbd>Ctrl + R</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Pesquisa para frente</div>
+      <div>
+        <kbd>Ctrl + S</kbd>
+        <div class="note">pode depender da configuração</div>
+      </div>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Cancela pesquisa do histórico</div>
+      <kbd>Ctrl + G</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Primeiro comando do histórico</div>
+      <kbd>Alt + &lt;</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Último comando do histórico</div>
+      <kbd>Alt + &gt;</kbd>
+    </div>
+  </div>
+</section>
+
+<!-- Controle -->
+<section class="section">
+  <h2 class="section-title">
+    <span class="icon">⚡</span>
+    Controle do terminal e processos
+  </h2>
+
+  <div class="grid">
+    <div class="shortcut">
+      <div class="description">Interrompe o comando/processo atual</div>
+      <kbd>Ctrl + C</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">EOF / sai do shell se a linha estiver vazia</div>
+      <kbd>Ctrl + D</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Suspende o processo atual</div>
+      <kbd>Ctrl + Z</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Limpa a tela</div>
+      <kbd>Ctrl + L</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Pausa a saída do terminal</div>
+      <kbd>Ctrl + S</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Retoma a saída do terminal</div>
+      <kbd>Ctrl + Q</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Envia SIGQUIT ao processo</div>
+      <kbd>Ctrl + \</kbd>
+    </div>
+  </div>
+</section>
+
+<!-- Manipulação -->
+<section class="section">
+  <h2 class="section-title">
+    <span class="icon">⌨</span>
+    Manipulação do comando
+  </h2>
+
+  <div class="grid">
+    <div class="shortcut">
+      <div class="description">Troca o caractere atual com o anterior</div>
+      <kbd>Ctrl + T</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Troca a palavra atual com a anterior</div>
+      <kbd>Alt + T</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Converte palavra para MAIÚSCULAS</div>
+      <kbd>Alt + U</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Converte palavra para minúsculas</div>
+      <kbd>Alt + L</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Capitaliza a palavra</div>
+      <kbd>Alt + C</kbd>
+    </div>
+
+    <div class="shortcut">
+      <div class="description">Alterna entre posição atual e início da linha</div>
+      <kbd>Ctrl + XX</kbd>
+    </div>
+  </div>
+</section>
+
+<!-- Favoritos -->
+<section class="favorites">
+  <h2>⭐ Os que mais valem decorar</h2>
+
+  <ul class="cheatsheet">
+    <li><kbd>Ctrl+A</kbd> <span>Início da linha</span></li>
+    <li><kbd>Ctrl+E</kbd> <span>Fim da linha</span></li>
+
+    <li><kbd>Alt+B</kbd> <span>Palavra para trás</span></li>
+    <li><kbd>Alt+F</kbd> <span>Palavra para frente</span></li>
+
+    <li><kbd>Ctrl+U</kbd> <span>Apaga até o início</span></li>
+    <li><kbd>Ctrl+K</kbd> <span>Apaga até o fim</span></li>
+
+    <li><kbd>Ctrl+W</kbd> <span>Apaga palavra anterior</span></li>
+    <li><kbd>Ctrl+Y</kbd> <span>Cola o texto apagado</span></li>
+
+    <li><kbd>Ctrl+R</kbd> <span>Pesquisa no histórico</span></li>
+    <li><kbd>Ctrl+L</kbd> <span>Limpa a tela</span></li>
+
+    <li><kbd>Ctrl+C</kbd> <span>Interrompe comando</span></li>
+    <li><kbd>Ctrl+Z</kbd> <span>Suspende processo</span></li>
+
+    <li><kbd>Ctrl+D</kbd> <span>EOF / sair</span></li>
+  </ul>
+
+  <div class="memory">
+    <strong>💡 Macete para memorizar:</strong><br><br>
+
+    <code>A</code> = início &nbsp;·&nbsp;
+    <code>E</code> = End &nbsp;·&nbsp;
+    <code>B</code> = Back &nbsp;·&nbsp;
+    <code>F</code> = Forward &nbsp;·&nbsp;
+    <code>K</code> = Kill até o fim &nbsp;·&nbsp;
+    <code>U</code> = até o início
+  </div>
+</section>
+
+<footer>
+  GNU Readline · Linux CLI Cheat Sheet
+</footer>
+```
+
+  </div>
+
+</body>
+</html>
