@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,9 +108,17 @@
       border-radius: 50%;
     }
 
-    .dot.red { background: #ff5f56; }
-    .dot.yellow { background: #ffbd2e; }
-    .dot.green { background: #27c93f; }
+    .dot.red {
+      background: #ff5f56;
+    }
+
+    .dot.yellow {
+      background: #ffbd2e;
+    }
+
+    .dot.green {
+      background: #27c93f;
+    }
 
     .terminal-title {
       margin-left: 8px;
@@ -202,7 +211,7 @@
       font-size: .8rem;
       font-weight: 700;
       white-space: nowrap;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .04);
     }
 
     .favorites {
@@ -211,11 +220,9 @@
       border: 1px solid rgba(63, 185, 80, .25);
       border-radius: 14px;
       background:
-        linear-gradient(
-          135deg,
+        linear-gradient(135deg,
           rgba(63, 185, 80, .08),
-          rgba(22, 27, 34, .7)
-        );
+          rgba(22, 27, 34, .7));
     }
 
     .favorites h2 {
@@ -304,318 +311,317 @@
 
   <div class="container">
 
-```
-<header>
-  <div class="terminal-icon">&gt;_</div>
+    <header>
+      <div class="terminal-icon">&gt;_</div>
 
-  <div class="badge">GNU Readline · Linux CLI</div>
+      <div class="badge">GNU Readline · Linux CLI</div>
 
-  <h1>Atalhos do Terminal Linux</h1>
+      <h1>Atalhos do Terminal Linux</h1>
 
-  <p class="subtitle">
-    Cheat sheet dos principais atalhos de teclado para navegar,
-    editar comandos, controlar processos e trabalhar com o histórico.
-  </p>
-</header>
+      <p class="subtitle">
+        Cheat sheet dos principais atalhos de teclado para navegar,
+        editar comandos, controlar processos e trabalhar com o histórico.
+      </p>
+    </header>
 
-<div class="terminal">
-  <div class="terminal-header">
-    <span class="dot red"></span>
-    <span class="dot yellow"></span>
-    <span class="dot green"></span>
-    <span class="terminal-title">bash — terminal</span>
-  </div>
+    <div class="terminal">
+      <div class="terminal-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">bash — terminal</span>
+      </div>
 
-  <div class="terminal-body">
-    <span class="prompt">user@linux</span>:~$ ls -la<br>
-    <span class="prompt">user@linux</span>:~$ git status<br>
-    <span class="prompt">user@linux</span>:~$ _
-  </div>
-</div>
-
-<!-- Navegação -->
-<section class="section">
-  <h2 class="section-title">
-    <span class="icon">↔</span>
-    Navegação na linha
-  </h2>
-
-  <div class="grid">
-    <div class="shortcut">
-      <div class="description">Início da linha</div>
-      <kbd>Ctrl + A</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Fim da linha</div>
-      <kbd>Ctrl + E</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Move 1 caractere para trás</div>
-      <kbd>Ctrl + B</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Move 1 caractere para frente</div>
-      <kbd>Ctrl + F</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Move 1 palavra para trás</div>
-      <kbd>Alt + B</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Move 1 palavra para frente</div>
-      <kbd>Alt + F</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Move 1 palavra para trás</div>
-      <div>
-        <kbd>Ctrl + ←</kbd>
-        <div class="note">depende do terminal</div>
+      <div class="terminal-body">
+        <span class="prompt">user@linux</span>:~$ ls -la<br>
+        <span class="prompt">user@linux</span>:~$ git status<br>
+        <span class="prompt">user@linux</span>:~$ _
       </div>
     </div>
 
-    <div class="shortcut">
-      <div class="description">Move 1 palavra para frente</div>
-      <div>
-        <kbd>Ctrl + →</kbd>
-        <div class="note">depende do terminal</div>
+    <!-- Navegação -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="icon">↔</span>
+        Navegação na linha
+      </h2>
+
+      <div class="grid">
+        <div class="shortcut">
+          <div class="description">Início da linha</div>
+          <kbd>Ctrl + A</kbd>
+        </div>
+
+        <div class="shortcut">
+          <div class="description">Fim da linha</div>
+          <kbd>Ctrl + E</kbd>
+        </div>
+
+        <div class="shortcut">
+          <div class="description">Move 1 caractere para trás</div>
+          <kbd>Ctrl + B</kbd>
+        </div>
+
+        <div class="shortcut">
+          <div class="description">Move 1 caractere para frente</div>
+          <kbd>Ctrl + F</kbd>
+        </div>
+
+        <div class="shortcut">
+          <div class="description">Move 1 palavra para trás</div>
+          <kbd>Alt + B</kbd>
+        </div>
+
+        <div class="shortcut">
+          <div class="description">Move 1 palavra para frente</div>
+          <kbd>Alt + F</kbd>
+        </div>
+
+        <div class="shortcut">
+          <div class="description">Move 1 palavra para trás</div>
+          <div>
+            <kbd>Ctrl + ←</kbd>
+            <div class="note">depende do terminal</div>
+          </div>
+        </div>
+
+        <div class="shortcut">
+          <div class="description">Move 1 palavra para frente</div>
+          <div>
+            <kbd>Ctrl + →</kbd>
+            <div class="note">depende do terminal</div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Edição -->
-<section class="section">
-  <h2 class="section-title">
-    <span class="icon">✂</span>
-    Apagar e editar
-  </h2>
+    <!-- Edição -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="icon">✂</span>
+        Apagar e editar
+      </h2>
 
-  <div class="grid">
-    <div class="shortcut">
-      <div class="description">Apaga o caractere anterior</div>
-      <kbd>Ctrl + H</kbd>
-    </div>
+      <div class="grid">
+        <div class="shortcut">
+          <div class="description">Apaga o caractere anterior</div>
+          <kbd>Ctrl + H</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Apaga o caractere sob o cursor</div>
-      <kbd>Ctrl + D</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Apaga o caractere sob o cursor</div>
+          <kbd>Ctrl + D</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Apaga a palavra anterior</div>
-      <kbd>Ctrl + W</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Apaga a palavra anterior</div>
+          <kbd>Ctrl + W</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Apaga a próxima palavra</div>
-      <kbd>Alt + D</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Apaga a próxima palavra</div>
+          <kbd>Alt + D</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Apaga até o início da linha</div>
-      <kbd>Ctrl + U</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Apaga até o início da linha</div>
+          <kbd>Ctrl + U</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Apaga até o fim da linha</div>
-      <kbd>Ctrl + K</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Apaga até o fim da linha</div>
+          <kbd>Ctrl + K</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Cola o último texto apagado</div>
-      <kbd>Ctrl + Y</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Cola o último texto apagado</div>
+          <kbd>Ctrl + Y</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Alterna textos apagados anteriormente</div>
-      <kbd>Alt + Y</kbd>
-    </div>
-  </div>
-</section>
-
-<!-- Histórico -->
-<section class="section">
-  <h2 class="section-title">
-    <span class="icon">↶</span>
-    Histórico
-  </h2>
-
-  <div class="grid">
-    <div class="shortcut">
-      <div class="description">Comando anterior</div>
-      <kbd>Ctrl + P</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Próximo comando</div>
-      <kbd>Ctrl + N</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Pesquisa reversa no histórico</div>
-      <kbd>Ctrl + R</kbd>
-    </div>
-
-    <div class="shortcut">
-      <div class="description">Pesquisa para frente</div>
-      <div>
-        <kbd>Ctrl + S</kbd>
-        <div class="note">pode depender da configuração</div>
+        <div class="shortcut">
+          <div class="description">Alterna textos apagados anteriormente</div>
+          <kbd>Alt + Y</kbd>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="shortcut">
-      <div class="description">Cancela pesquisa do histórico</div>
-      <kbd>Ctrl + G</kbd>
-    </div>
+    <!-- Histórico -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="icon">↶</span>
+        Histórico
+      </h2>
 
-    <div class="shortcut">
-      <div class="description">Primeiro comando do histórico</div>
-      <kbd>Alt + &lt;</kbd>
-    </div>
+      <div class="grid">
+        <div class="shortcut">
+          <div class="description">Comando anterior</div>
+          <kbd>Ctrl + P</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Último comando do histórico</div>
-      <kbd>Alt + &gt;</kbd>
-    </div>
-  </div>
-</section>
+        <div class="shortcut">
+          <div class="description">Próximo comando</div>
+          <kbd>Ctrl + N</kbd>
+        </div>
 
-<!-- Controle -->
-<section class="section">
-  <h2 class="section-title">
-    <span class="icon">⚡</span>
-    Controle do terminal e processos
-  </h2>
+        <div class="shortcut">
+          <div class="description">Pesquisa reversa no histórico</div>
+          <kbd>Ctrl + R</kbd>
+        </div>
 
-  <div class="grid">
-    <div class="shortcut">
-      <div class="description">Interrompe o comando/processo atual</div>
-      <kbd>Ctrl + C</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Pesquisa para frente</div>
+          <div>
+            <kbd>Ctrl + S</kbd>
+            <div class="note">pode depender da configuração</div>
+          </div>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">EOF / sai do shell se a linha estiver vazia</div>
-      <kbd>Ctrl + D</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Cancela pesquisa do histórico</div>
+          <kbd>Ctrl + G</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Suspende o processo atual</div>
-      <kbd>Ctrl + Z</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Primeiro comando do histórico</div>
+          <kbd>Alt + &lt;</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Limpa a tela</div>
-      <kbd>Ctrl + L</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Último comando do histórico</div>
+          <kbd>Alt + &gt;</kbd>
+        </div>
+      </div>
+    </section>
 
-    <div class="shortcut">
-      <div class="description">Pausa a saída do terminal</div>
-      <kbd>Ctrl + S</kbd>
-    </div>
+    <!-- Controle -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="icon">⚡</span>
+        Controle do terminal e processos
+      </h2>
 
-    <div class="shortcut">
-      <div class="description">Retoma a saída do terminal</div>
-      <kbd>Ctrl + Q</kbd>
-    </div>
+      <div class="grid">
+        <div class="shortcut">
+          <div class="description">Interrompe o comando/processo atual</div>
+          <kbd>Ctrl + C</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Envia SIGQUIT ao processo</div>
-      <kbd>Ctrl + \</kbd>
-    </div>
-  </div>
-</section>
+        <div class="shortcut">
+          <div class="description">EOF / sai do shell se a linha estiver vazia</div>
+          <kbd>Ctrl + D</kbd>
+        </div>
 
-<!-- Manipulação -->
-<section class="section">
-  <h2 class="section-title">
-    <span class="icon">⌨</span>
-    Manipulação do comando
-  </h2>
+        <div class="shortcut">
+          <div class="description">Suspende o processo atual</div>
+          <kbd>Ctrl + Z</kbd>
+        </div>
 
-  <div class="grid">
-    <div class="shortcut">
-      <div class="description">Troca o caractere atual com o anterior</div>
-      <kbd>Ctrl + T</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Limpa a tela</div>
+          <kbd>Ctrl + L</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Troca a palavra atual com a anterior</div>
-      <kbd>Alt + T</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Pausa a saída do terminal</div>
+          <kbd>Ctrl + S</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Converte palavra para MAIÚSCULAS</div>
-      <kbd>Alt + U</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Retoma a saída do terminal</div>
+          <kbd>Ctrl + Q</kbd>
+        </div>
 
-    <div class="shortcut">
-      <div class="description">Converte palavra para minúsculas</div>
-      <kbd>Alt + L</kbd>
-    </div>
+        <div class="shortcut">
+          <div class="description">Envia SIGQUIT ao processo</div>
+          <kbd>Ctrl + \</kbd>
+        </div>
+      </div>
+    </section>
 
-    <div class="shortcut">
-      <div class="description">Capitaliza a palavra</div>
-      <kbd>Alt + C</kbd>
-    </div>
+    <!-- Manipulação -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="icon">⌨</span>
+        Manipulação do comando
+      </h2>
 
-    <div class="shortcut">
-      <div class="description">Alterna entre posição atual e início da linha</div>
-      <kbd>Ctrl + XX</kbd>
-    </div>
-  </div>
-</section>
+      <div class="grid">
+        <div class="shortcut">
+          <div class="description">Troca o caractere atual com o anterior</div>
+          <kbd>Ctrl + T</kbd>
+        </div>
 
-<!-- Favoritos -->
-<section class="favorites">
-  <h2>⭐ Os que mais valem decorar</h2>
+        <div class="shortcut">
+          <div class="description">Troca a palavra atual com a anterior</div>
+          <kbd>Alt + T</kbd>
+        </div>
 
-  <ul class="cheatsheet">
-    <li><kbd>Ctrl+A</kbd> <span>Início da linha</span></li>
-    <li><kbd>Ctrl+E</kbd> <span>Fim da linha</span></li>
+        <div class="shortcut">
+          <div class="description">Converte palavra para MAIÚSCULAS</div>
+          <kbd>Alt + U</kbd>
+        </div>
 
-    <li><kbd>Alt+B</kbd> <span>Palavra para trás</span></li>
-    <li><kbd>Alt+F</kbd> <span>Palavra para frente</span></li>
+        <div class="shortcut">
+          <div class="description">Converte palavra para minúsculas</div>
+          <kbd>Alt + L</kbd>
+        </div>
 
-    <li><kbd>Ctrl+U</kbd> <span>Apaga até o início</span></li>
-    <li><kbd>Ctrl+K</kbd> <span>Apaga até o fim</span></li>
+        <div class="shortcut">
+          <div class="description">Capitaliza a palavra</div>
+          <kbd>Alt + C</kbd>
+        </div>
 
-    <li><kbd>Ctrl+W</kbd> <span>Apaga palavra anterior</span></li>
-    <li><kbd>Ctrl+Y</kbd> <span>Cola o texto apagado</span></li>
+        <div class="shortcut">
+          <div class="description">Alterna entre posição atual e início da linha</div>
+          <kbd>Ctrl + XX</kbd>
+        </div>
+      </div>
+    </section>
 
-    <li><kbd>Ctrl+R</kbd> <span>Pesquisa no histórico</span></li>
-    <li><kbd>Ctrl+L</kbd> <span>Limpa a tela</span></li>
+    <!-- Favoritos -->
+    <section class="favorites">
+      <h2>⭐ Os que mais valem decorar</h2>
 
-    <li><kbd>Ctrl+C</kbd> <span>Interrompe comando</span></li>
-    <li><kbd>Ctrl+Z</kbd> <span>Suspende processo</span></li>
+      <ul class="cheatsheet">
+        <li><kbd>Ctrl+A</kbd> <span>Início da linha</span></li>
+        <li><kbd>Ctrl+E</kbd> <span>Fim da linha</span></li>
 
-    <li><kbd>Ctrl+D</kbd> <span>EOF / sair</span></li>
-  </ul>
+        <li><kbd>Alt+B</kbd> <span>Palavra para trás</span></li>
+        <li><kbd>Alt+F</kbd> <span>Palavra para frente</span></li>
 
-  <div class="memory">
-    <strong>💡 Macete para memorizar:</strong><br><br>
+        <li><kbd>Ctrl+U</kbd> <span>Apaga até o início</span></li>
+        <li><kbd>Ctrl+K</kbd> <span>Apaga até o fim</span></li>
 
-    <code>A</code> = início &nbsp;·&nbsp;
-    <code>E</code> = End &nbsp;·&nbsp;
-    <code>B</code> = Back &nbsp;·&nbsp;
-    <code>F</code> = Forward &nbsp;·&nbsp;
-    <code>K</code> = Kill até o fim &nbsp;·&nbsp;
-    <code>U</code> = até o início
-  </div>
-</section>
+        <li><kbd>Ctrl+W</kbd> <span>Apaga palavra anterior</span></li>
+        <li><kbd>Ctrl+Y</kbd> <span>Cola o texto apagado</span></li>
 
-<footer>
-  GNU Readline · Linux CLI Cheat Sheet
-</footer>
-```
+        <li><kbd>Ctrl+R</kbd> <span>Pesquisa no histórico</span></li>
+        <li><kbd>Ctrl+L</kbd> <span>Limpa a tela</span></li>
+
+        <li><kbd>Ctrl+C</kbd> <span>Interrompe comando</span></li>
+        <li><kbd>Ctrl+Z</kbd> <span>Suspende processo</span></li>
+
+        <li><kbd>Ctrl+D</kbd> <span>EOF / sair</span></li>
+      </ul>
+
+      <div class="memory">
+        <strong>💡 Macete para memorizar:</strong><br><br>
+
+        <code>A</code> = início &nbsp;·&nbsp;
+        <code>E</code> = End &nbsp;·&nbsp;
+        <code>B</code> = Back &nbsp;·&nbsp;
+        <code>F</code> = Forward &nbsp;·&nbsp;
+        <code>K</code> = Kill até o fim &nbsp;·&nbsp;
+        <code>U</code> = até o início
+      </div>
+    </section>
+
+    <footer>
+      GNU Readline · Linux CLI Cheat Sheet
+    </footer>
 
   </div>
 
 </body>
+
 </html>
