@@ -1,0 +1,592 @@
+RELATÓRIO DE STATUS DOS REPOSITÓRIOS GIT
+
+Data: Tue Oct 20 16:07:49 -03 2026
+
+Diretório base: /home/rfahham/projetos
+========================================
+
+Repositório: /home/rfahham/projetos/Claude
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/GraphQL
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch feature/playwright
+Your branch is up to date with 'origin/feature/playwright'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   requests/delete.json
+	modified:   requests/update.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	docs/consultas.md
+	docs/evolucao-projeto.md
+	docs/mutacoes.md
+	docs/projeto.md
+	docs/requests.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/OTP
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/QALabs
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/apagar-aprendendo-python
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch aulas
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    README.md
+	deleted:    assets/logo.png
+	deleted:    assets/python.jpg
+	deleted:    assets/script.js
+	deleted:    assets/styles.css
+	deleted:    aulas/01.html
+	deleted:    aulas/02.html
+	deleted:    aulas/03.html
+	deleted:    aulas/04.html
+	deleted:    aulas/05.html
+	deleted:    aulas/06.html
+	deleted:    aulas/07.html
+	deleted:    aulas/08.html
+	deleted:    aulas/09.html
+	deleted:    aulas/10.html
+	deleted:    aulas/11.html
+	deleted:    aulas/12.html
+	deleted:    aulas/13.html
+	deleted:    aulas/14.html
+	deleted:    aulas/15.html
+	deleted:    aulas/16.html
+	deleted:    aulas/17.html
+	deleted:    aulas/18.html
+	deleted:    aulas/19.html
+	deleted:    aulas/20.html
+	deleted:    aulas/21.html
+	deleted:    aulas/22.html
+	deleted:    aulas/23.html
+	deleted:    aulas/24.html
+	deleted:    aulas/25.html
+	deleted:    aulas/26.html
+	deleted:    aulas/27.html
+	deleted:    aulas/28.html
+	deleted:    aulas/29.html
+	deleted:    aulas/30.html
+	deleted:    aulas/31.html
+	deleted:    aulas/32.html
+	deleted:    aulas/33.html
+	deleted:    aulas/34.html
+	deleted:    aulas/35.html
+	deleted:    aulas/36.html
+	deleted:    aulas/37.html
+	deleted:    aulas/38.html
+	deleted:    aulas/39.html
+	deleted:    aulas/40.html
+	deleted:    aulas/41.html
+	deleted:    aulas/42.html
+	deleted:    aulas/43.html
+	deleted:    aulas/44.html
+	deleted:    aulas/45.html
+	deleted:    aulas/46.html
+	deleted:    aulas/47.html
+	deleted:    aulas/48.html
+	deleted:    aulas/49.html
+	deleted:    aulas/50.html
+	deleted:    aulas/51.html
+	deleted:    aulas/52.html
+	deleted:    aulas/53.html
+	deleted:    aulas/54.html
+	deleted:    aulas/55.html
+	deleted:    aulas/56.html
+	deleted:    aulas/57.html
+	deleted:    aulas/58.html
+	deleted:    aulas/59.html
+	deleted:    aulas/60.html
+	deleted:    aulas/61.html
+	deleted:    aulas/62.html
+	deleted:    aulas/63.html
+	deleted:    aulas/64.html
+	deleted:    aulas/65.html
+	deleted:    aulas/66.html
+	deleted:    aulas/67.html
+	deleted:    aulas/68.html
+	deleted:    aulas/69.html
+	deleted:    aulas/70.html
+	deleted:    aulas/71.html
+	deleted:    aulas/72.html
+	deleted:    aulas/73.html
+	deleted:    aulas/74.html
+	deleted:    aulas/75.html
+	deleted:    aulas/76.html
+	deleted:    aulas/77.html
+	deleted:    aulas/78.html
+	deleted:    aulas/79.html
+	deleted:    aulas/80.html
+	deleted:    index.html
+	deleted:    plano.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	aprendendo-python/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/aprendendo-cypress
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/aprendendo-db
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/aprendendo-git
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/aprendendo-go
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	horadoqa.cy.js
+	projetos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Repositório: /home/rfahham/projetos/aprendendo-javascript
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/aprendendo-linux
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/aprendendo-nosql
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/aprendendo-python
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/aprendendo-sql
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	docs/treino.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Repositório: /home/rfahham/projetos/aprendendo-ti
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/banco-dados
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   sql/postgres/tabelas.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/bruno
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Makefile
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/chart
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/clenup-serverest
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/commits-semanticos
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/copas
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/crm
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/curl
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/cypress-allure
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    Plano de Teste/usuario/cenarios.md
+	deleted:    Plano de Teste/usuario/gherkin.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	plano-de-teste/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/diagrama-sequencia
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/e-book
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/e-commerce
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/fe-serverest
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/folders
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/github-actions-vscode
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/grafana-k6
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/grpc
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/horadoqa-thumbnail
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/http
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/instagram
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/jmeter
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/jwt
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/k6-serverest
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/linktree
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/localStorage
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/login
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/login-next
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/login-vercel
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/meu-app-vercel
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   guide.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/movies
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/newman
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/nginx
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/parquet
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/petropolis
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/planejamento
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/playwright-allure
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/playwright-cheat-sheet
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/playwright-mcp
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/playwright-serverest
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/polling
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/postman-newman
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/projetos-k6
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/projetos-python
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/qa-ecommerce-project
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/qa-portifolio-quiz-cypress
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/quinto-andar
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch feature/playwright
+Your branch is up to date with 'origin/feature/playwright'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   playwright/fixtures/form.data.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/quiz-api-rest
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/quiz-cypress
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/quiz-db
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.vscode/
+	assets/
+	index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/quiz-playwright
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/react
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch festure/new-site
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	site/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Repositório: /home/rfahham/projetos/rest-assured-allure
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/rick-and-morty-api
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/serie-playwright
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/serverest
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/serverest-monitoring
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/setup-cypress
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/sextou
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/shell-script
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	projetos/repositorios/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Repositório: /home/rfahham/projetos/site
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/star-wars
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/subscribers
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Repositório: /home/rfahham/projetos/taas
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/taas-2.0.0
+----------------------------------------
+Status: ALTERAÇÕES PENDENTES
+On branch 2.0.0
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    Makefile
+	deleted:    config.sh
+	modified:   infra/terraform/aws/README.md
+	modified:   manual.md
+	deleted:    scripts/k6tt.sh
+	new file:   taas
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   taas (new commits)
+
+
+Repositório: /home/rfahham/projetos/teste-contrato
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/top10
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+Repositório: /home/rfahham/projetos/vercel
+----------------------------------------
+Status: LIMPO - Nenhuma alteração pendente.
+
+========================================
+Relatório concluído em: Tue Oct 20 16:07:50 -03 2026
